@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'nav-footer'
+  name: 'alipay'
 }
 </script>
 
