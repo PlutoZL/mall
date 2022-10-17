@@ -1,9 +1,19 @@
 <template>
-  <div></div>
+  <order-header></order-header>
+  <router-view></router-view>
+  <nav-footer></nav-footer>
 </template>
 
 <script>
-export default {}
+import OrderHeader from '@/components/OrderHeader.vue'
+import NavFooter from '@/components/NavFooter.vue'
+export default {
+  name: 'order',
+  components: {
+    OrderHeader,
+    NavFooter
+  }
+}
 </script>
 
 <style></style>

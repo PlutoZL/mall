@@ -1,9 +1,8 @@
 <template>
-  <div></div>
+  <div>product</div>
 </template>
-
 <script>
-export default {}
+export default {
+  name: 'product'
+}
 </script>
-
-<style></style>
